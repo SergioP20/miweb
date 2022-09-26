@@ -6,10 +6,8 @@ public class Main {
         String name = "";
         Scanner n = new Scanner(System.in);
         name = n.nextLine();
-
         Corresponsal obj = new Corresponsal();
-
-        obj.message_A(name,"Hola");
+        System.out.println(obj.message_A(name));
 
     }
 }
