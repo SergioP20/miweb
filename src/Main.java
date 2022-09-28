@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Creemos un saludo!    Ingresa tu nombre");
+        System.out.println("Let's greet!    Insert your name");
         String name = "";
         Scanner n = new Scanner(System.in);
         name = n.nextLine();
-        Corresponsal obj = new Corresponsal();
-        System.out.println(obj.message_A(name));
+        System.out.println(Corresponsal.menssage_A(name));
 
     }
 }

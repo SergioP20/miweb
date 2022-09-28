@@ -1,8 +1,8 @@
 public class Corresponsal {
-    String message_A(String nom){
+    public static String menssage_A(String nom){
         String msj = "Hola ";
         if (nom.equals("Jhonny")){
-            msj = "Hola mi amor";
+            msj = "Hello my love, my dear Jhonny";
         }
         else
             msj = msj + nom;
