@@ -1,7 +1,4 @@
-
-import java.util.*;
-
-public class SprintOne_Tasks {
+public class SprintOneTasks {
 
     /**
      * Function to send a greeting to users but has a special message to Jhonny
@@ -39,6 +36,8 @@ public class SprintOne_Tasks {
         String text_l = "You should consider date with people as top " + max + " years old";
         String text_h = "You should not date with people under the " + min + " years old";
         return text_l + "\n" + text_h;
+
+
 
 
     }
